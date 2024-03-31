@@ -1,0 +1,462 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.header{
+    background-color:rgb(182, 189, 177);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    width: 100%;
+    height: 60px;
+}
+
+.header h1{
+    color: black;
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+
+.header ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    margin: 12px;
+    color:black;
+    font-size: 1.4em;
+    
+}
+
+.header ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+}
+
+
+.body{
+    display: flex;
+    background-color:aliceblue;
+    width: 100%;
+    height: 600px;
+}
+
+.bodySec1{
+   width: 600px;
+   height: auto;
+   margin-top: 180px;
+
+
+}
+
+.bodySec1 h1{
+    font-size: 2em;
+    padding-left: 25px;
+    text-align: center;
+    color: blue;
+    border-radius: 10px;
+
+}
+
+
+.bodySec1 p{
+    padding-left: 20px;
+    line-height: 30px;
+    font-size: 1.2em;
+    padding-top: 10px;
+}
+
+.bodySec1 button{
+    width: 150px;
+    height: 40px;
+    background-color:white;
+    color:black;
+    border-radius: 25px;
+    margin-left: 220px;
+    margin-top: 40px;
+}
+.bodySec1 button:hover{
+    background-color:teal;
+    color:black;
+
+}
+
+.bodySec2{
+    width: 600px;
+    height: auto;
+    margin-top: 100px;
+  
+
+}
+
+.bodySec2 img{
+    margin-top: 35px;
+    margin-left: 100px;
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+
+.Bio{
+    display: flex;
+    background-color:white;
+    width: 100%;
+    height: 600px;
+    font-size: blod;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.biosec1{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+}
+.biosec1 img{
+    background-color: #fff;
+    margin-left: 50px;
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+.biosec2{
+    
+    width: 600px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 240px;
+}
+
+.biosec2 h1{
+    text-align: left;
+    padding-top: 35px;
+    padding-left: 25px;
+}
+
+.biosec2 p{
+    font-size: 1em;
+    padding: 20px;
+    line-height: 30px;}
+
+
+    .Skills{
+     
+        width: 100%;
+        height: 450px;
+    }
+    .Skills h1{
+        text-align: center;
+    }
+    
+    .divs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    .div1{
+        width: 350px;
+        height: 270px;
+        margin-bottom: 30PX;
+        background-color: aliceblue;
+        border-radius: 20px;
+
+    }
+    
+    
+    
+    .div1 h1{
+        color:black;
+        font-size: 1.3em;
+        padding-top: 20px;
+        text-align: left;
+        padding-left: 5px;
+    
+    }
+    
+    .div1 p{
+        color:black;
+        line-height: 25px;
+        padding: 10px 10px;
+    }
+    
+    
+    
+    
+    .div2{
+        width: 350px;
+        height: 270px;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-bottom: 30PX;
+        background-color:aliceblue;
+        border-radius: 20px;
+    
+    }
+    
+    
+    .div2 h1{
+        color:black;
+        font-size: 1.3em;
+        padding-top: 20px;
+        text-align: left;
+        padding-left: 5px;
+    
+    }
+    
+    .div2 p{
+        color:black;
+        line-height: 25px;
+        padding: 10px 10px;
+    }
+    
+    .div3{
+        width: 350px;
+        height: 270px;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-bottom: 30PX;
+        background-color: aliceblue;
+        border-radius: 20px;
+    }
+    
+    
+    .div3 h1{
+        color:black;
+        font-size: 1.3em;
+        padding-top: 20px;
+        text-align: left;
+        padding-left: 5px;
+    
+    }
+    
+    .div3 p{
+        color:black;
+        line-height: 25px;
+        padding: 10px 10px;
+    }
+
+    .div4{
+        width: 300px;
+        height: 270px;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-bottom: 30PX;
+        background-color: aliceblue;
+        border-bottom:3px solid
+    }
+    
+    
+    .div4 h1{
+        color:black;
+        font-size: 1.3em;
+        padding-top: 20px;
+        text-align: left;
+        padding-left: 5px;
+    
+    }
+    
+    .div4 p{
+        color:black;
+        line-height: 25px;
+        padding: 10px 10px;
+    }
+  
+    
+    .div5{
+        width: 300px;
+        height: 270px;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-bottom: 30PX;
+        background-color: aliceblue;
+        border-bottom:3px solid
+    }
+    
+    
+    .div5 h1{
+        color:black;
+        font-size: 1.3em;
+        padding-top: 20px;
+        text-align: left;
+        padding-left: 5px;
+    
+    }
+    
+    .div5 p{
+        color:black;
+        line-height: 25px;
+        padding: 10px 10px;
+    }
+
+    .div6{
+        width: 300px;
+        height: 270px;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-bottom: 30PX;
+        background-color: aliceblue;
+        border-bottom:3px solid
+    }
+    
+    
+    .div6h1{
+        color:black;
+        font-size: 1.3em;
+        padding-top: 20px;
+        text-align: left;
+        padding-left: 5px;
+    
+    }
+    
+    .div6 p{
+        color:black;
+        line-height: 25px;
+        padding: 10px 10px;
+    }
+
+
+    h1 Projects{
+        text-align: center;
+    }
+    
+.Projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+}
+ 
+.Project1{
+    width: 350px;
+    height: 270px;
+    margin-bottom: 30PX;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.Project1 h2{
+    color:black;
+    font-size: 1.3em;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 5px;
+}
+.Project2{
+    width: 350px;
+    height: 270px;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 30PX;
+    background-color:aliceblue;
+    border-radius: 20px;
+
+}
+.Project2 h2{
+    color:black;
+    font-size: 1.3em;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 5px;
+}
+.Project3 {
+    width: 350px;
+    height: 270px;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 30PX;
+    background-color:aliceblue;
+    border-radius: 20px;  
+}
+.Project3 h3{
+    font-size: 1.3em;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 5px; 
+}
+ 
+.contacts-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 29px;
+    padding: 10px;
+    height: 90vh;
+    font-size: 1.5rem;
+    font-family: serif;
+    
+  }
+  .contact-form{
+    padding: 20px;
+    background-color: #bfbec0;
+    min-width: 350px;
+    border-radius: 10px;
+
+
+  }
+  .contact-form h1{
+    margin-bottom: 10px;
+    text-align: center;
+    color: #040505;
+  }
+  .form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+   
+ 
+  }
+  .form-group label{
+    color: rebeccapurple;
+    text-align: left;
+  }
+  .form-group input{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #c75757;
+    border-radius: 5px;
+  }
+  .form-group textarea{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #998c8c;
+    border-radius: 5px;
+  }
+  .btn button{
+    width: 100%;
+    padding: 20px;
+    background-color:white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    /* width: 200px;
+    height: 40px;
+    background-color:white;
+    color:black;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 40px; */
+  }
